@@ -1,6 +1,10 @@
 # goit-node-hw-01
-![alt text](<a href="https://ibb.co/1rvjqQb"><img src="https://i.ibb.co/D9VTCWL/remove.png" alt="remove" border="0"></a>)
+node index.js --action="list
+<a href="https://ibb.co/ZKv45RY"><img src="https://i.ibb.co/P4JXKs9/list.png" alt="list" border="0"></a>
+node index.js --action="get" --id 05olLMgyVQdWRwgKfg5J6
+<a href="https://ibb.co/DbS5hJQ"><img src="https://i.ibb.co/sPMynfq/get.png" alt="get" border="0"></a>
+node index.js --action="add" --name Mango --email mango@gmail.com --phone 322-22-22
 
-![alt text]([https://i.pinimg.com/originals/70/5b/bb/705bbb820c7332b04d619f7536645753.jpg](https://drive.google.com/file/d/1vC8iUcww3TS9UeOErzk_ohmNss5Gt_xt/view?usp=sharing))
-
-https://drive.google.com/file/d/1vC8iUcww3TS9UeOErzk_ohmNss5Gt_xt/view?usp=sharing
+<a href="https://ibb.co/8MK7HfQ"><img src="https://i.ibb.co/dBW5RVH/add.png" alt="add" border="0"></a>
+node index.js --action="remove" --id qdggE76Jtbfd9eWJHrssH
+<a href="https://ibb.co/1rvjqQb"><img src="https://i.ibb.co/D9VTCWL/remove.png" alt="remove" border="0"></a>
