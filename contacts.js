@@ -1,8 +1,5 @@
 const { nanoid } = require("nanoid");
 
-const { trace } = require("console");
-const { readFile } = require("fs");
-
 const fs = require("fs").promises;
 const path = require("path");
 
@@ -22,7 +19,7 @@ async function getContactById(contactId) {
     const contacts = await listContacts();
 
     const contactById = contacts.filter((el) => el.id === contactId);
-    // return console.log(contactById);
+    return contactById;
   } catch (error) {
     console.log(error);
   }
@@ -38,7 +35,7 @@ async function removeContact(contactId) {
     }
     const [result] = contacts.splice(itemIndex, 1);
     fs.writeFile(contactsPath, JSON.stringify(result, null, 2));
-    return result;
+    return contacts;
   } catch (error) {
     console.log(error);
   }
@@ -47,13 +44,13 @@ async function removeContact(contactId) {
 async function addContact(name, email, phone) {
   try {
     const contacts = await listContacts();
-
     const newContact = { id: nanoid(), name, email, phone };
 
     fs.writeFile(
       contactsPath,
       JSON.stringify([...contacts, newContact], null, 2)
     );
+    return contacts;
   } catch (error) {
     console.log(error);
   }
