@@ -1,4 +1,5 @@
 # goit-node-hw-01
-![alt text](example.com/logo.png)
+node index.js --action="list"
 
-![alt text](https://i.pinimg.com/originals/70/5b/bb/705bbb820c7332b04d619f7536645753.jpg)
+
+![alt text](https://drive.google.com/file/d/1vC8iUcww3TS9UeOErzk_ohmNss5Gt_xt/view?usp=share_link)
