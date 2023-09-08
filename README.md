@@ -1,7 +1,6 @@
 # goit-node-hw-01 <br>
 
-Application for storing and editing contacts.<br>
-work completed within the scope of practice of the Full stack developer (GOIT) courses. <br>
+Work completed within the scope of practice of the Full stack developer (GOIT) courses. <br>
 
 <b>`Name:`</b> goit-node-hw-01<br>
 <b>`Project theme:`</b> Node.js Basics  <br>
